@@ -1,6 +1,7 @@
 <!-- 구동 명령어 -->
 
 uv run uvicorn app.main:app --reload --port 8000
+uv run app/main.py
 
 <!-- base64 변환 명령어(줄바꿈 없이) -->
 
